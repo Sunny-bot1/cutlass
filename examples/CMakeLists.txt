@@ -140,6 +140,11 @@ foreach(EXAMPLE
   57_hopper_grouped_gemm
   58_ada_fp8_gemm
   59_ampere_gather_scatter_conv
+  61_ada_fp8_gemm_universal
+  62_ada_fp8_gemm_splitk
+  63_ada_fp8_gemm_batched
+  64_ada_fp8_gemm_bias_swishglu
+  65_ada_fp8_gemm_bias_swiglu_splitk_para
   )
 
   add_subdirectory(${EXAMPLE})
